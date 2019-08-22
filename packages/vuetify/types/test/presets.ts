@@ -113,6 +113,9 @@ new Vuetify({
   theme: {
     themes: {
       dark: {
+        primary: {
+          base: '#bada55',
+        },
         success: '#012345',
       },
       light: {
@@ -132,7 +135,7 @@ new Vuetify({
         get: (parsedTheme: VuetifyParsedTheme) => '',
         set: (parsedTheme: VuetifyParsedTheme, css: string) => {},
       },
-    }
+    },
   },
 })
 
